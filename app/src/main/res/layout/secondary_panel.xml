@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/switch_state"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="2nd"
+            android:onClick="switchState"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/radian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="Rad"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/square_root"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="Abs"
+            android:textSize="@dimen/text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="sin"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/cos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="cos"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/tan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="tan"
+            android:textSize="@dimen/text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/ln"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="ln"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="log"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/one_divide_byx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="1/x"
+            android:textSize="@dimen/text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/epowerx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="e^x"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/square"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="x^2"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/xpowerofy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="x^y"
+            android:textSize="@dimen/text_size" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/module"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="|x|"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/pi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="Pi"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/action_number_color"
+            android:gravity="center"
+            android:text="e"
+            android:textSize="@dimen/text_size" />
+
+    </TableRow>
+</TableLayout>
